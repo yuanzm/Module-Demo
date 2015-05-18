@@ -16,11 +16,9 @@ var util = (function() {
         return res;
     }
 
-
-    //selection sort
     /*
      * 选择排序
-     * @param {}
+     * @param {Array} array: 需要进行排序的数组
      */
     function selectionSort(array) {
         if (Object.prototype.toString.call(array).slice(8, -1) === "Array") {
@@ -43,10 +41,8 @@ var util = (function() {
             return "array is not an Array";
         }
     }
-
-// var test = [1,4,5,2,76,21,45];
-// console.log(selectionSort(test));
     return {
-        unique: unique
+        unique: unique,
+        selectionSort: selectionSort
     }
 })();

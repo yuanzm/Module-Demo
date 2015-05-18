@@ -1,3 +1,6 @@
+/*
+ * 定义一个名字为`MODULE`的模块
+ */
 var MODULE = (function () {
     var my = {},
         privateVariable = 1;    // 模块的私有变量

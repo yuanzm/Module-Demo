@@ -10,5 +10,9 @@
 <script type="text/javascript" src="basic.js"></script>
 <script type="text/javascript">
     alert(MODULE.moduleProperty);
+    MODULE.sayVar = function() {
+    	alert(this.privateVariable);
+    }
+    MODULE.sayVar()
 </script>
 </html>
